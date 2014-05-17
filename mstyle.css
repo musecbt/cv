@@ -1,0 +1,226 @@
+@charset "utf-8";
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, ol, ul, li, caption, figure, figcaption, footer, header, menu, nav, output, video {
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline
+}
+#iframe-wrapper #Marquee #GetVideo {
+	height: 150px;
+	width: 338px;
+	position: absolute;
+	left: 15px;
+	top: 80px;
+	line-height: normal;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-image: url(images/vback.png);
+	background-repeat: repeat;
+	background-position: left top;
+	padding: 15px;
+}
+#iframe-wrapper #Marquee #GetVideo h1 {
+	color: #FFF;
+	font-size: 24px;
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	background-color: #FFF !important;
+}
+#iframe-wrapper {
+	background-color: #FFF;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: 'Roboto Slab', Georgia, serif !important;
+}
+#iframe-wrapper #Summaries {
+	width: 640px;
+	clear: left;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float: left;
+	padding-top: 15px;
+}
+#iframe-wrapper #Register {
+	clear: right;
+	width: 360px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float: right;
+	padding-top: 15px;
+}
+#iframe-wrapper #Register #Reg {
+	height: 240px;
+	width: 270px;
+	background-color: #FCF0D9;
+	float: right;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 15px;
+	border: 1px solid #FBE9C8;
+	margin-right: 15px;
+}
+#iframe-wrapper #Register #Reg h1 {
+	font-weight: 100;
+	margin: 0px !important;
+}
+#iframe-wrapper #Register #Reg h2 {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #333;
+}
+
+
+
+#iframe-wrapper #Summaries #S1 {
+	clear: right;
+	float: left;
+	width: 280px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+#iframe-wrapper #Summaries #S2 {
+	clear: right;
+	float: left;
+	width: 280px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+#iframe-wrapper #Summaries #More {
+	float: left;
+	width: 640px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#iframe-wrapper #Summaries h1 {
+	color: #FF5B67;
+	/*font: 'Roboto Slab';*/
+	font-weight: 300;
+	margin: 0px !important;
+}
+.mWatchVideo {
+	color: #FFF;
+	height: 23px;
+	float: right;
+	border: none;
+	width: 160px;
+	cursor:pointer;
+	/*font-family: 'Roboto Slab';*/
+	font-size: 14px;
+	line-height: 23px;
+	background-image: url(images/watch.png);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: absolute;
+	top: 135px;
+	right: 15px;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 15px;
+	background-color: #FF5B67;
+}
+.mGetStarted {
+	color: #000;
+	height: 23px;
+	float: right;
+	width: 140px;
+	cursor:pointer;
+	/*font-family: 'Roboto Slab';*/
+	font-size: 14px;
+	background-image: url(images/register.png);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: absolute;
+	top: 245px;
+	right: 35px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-decoration: none;
+	line-height: 23px;
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #A2DADF;
+}
+.mLearn {
+	color: #FFF;
+	height: 23px;
+	float: right;
+	width: 110px;
+	cursor:pointer;
+	/*font-family: 'Roboto Slab';*/
+	font-size: 14px;
+	background-image: url(images/learn.png);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-decoration: none;
+	line-height: 23px;
+	text-align: right;
+	padding-right: 10px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 40px;
+	margin-top: 15px;
+	background-color: #BFBDB5;
+}
+
+
+#iframe-wrapper #Marquee #GetVideo #Watch h2 {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #176B73;
+}
+#iframe-wrapper #Marquee #GetVideo #Watch {
+	position: absolute;
+	top: 130px;
+}
+#iframe-wrapper #Summaries ul {
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 17px;
+}
+#iframe-wrapper #Summaries ul li {
+	margin-top: 5px;
+}
+helpers : {
+ overlay : {
+  opacity    : 0
+ },
+ title : null
+}
+#iframe-wrapper #Summaries li {
+	color: #594F3D;
+}
+#iframe-wrapper #Register #Reg p {
+	color: #594F3D;
+}
