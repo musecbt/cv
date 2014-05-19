@@ -27,8 +27,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, addres
 	margin: 0px;
 	padding: 0px;
 }
-
-
 body {
 	background-color: #FFF !important;
 }
@@ -39,28 +37,48 @@ body {
 	padding: 0px;
 	height: 100%;
 	font-family: 'Roboto Slab', Georgia, serif !important;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
+#prefetch {
+	display:none;
+	position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
+
 #iframe-wrapper #Summaries {
-	width: 640px;
+	width: 630px;
 	clear: left;
 	position: relative;
 	left: 0px;
 	top: 0px;
 	float: left;
-	padding-top: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CFCFCF;
+	height: 180px;
+	padding-left: 10px;
 }
 #iframe-wrapper #Register {
 	clear: right;
-	width: 360px;
+	width: 328px;
 	position: relative;
 	left: 0px;
 	top: 0px;
 	float: right;
-	padding-top: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CFCFCF;
+	margin-right: 15px;
 }
 #iframe-wrapper #Register #Reg {
 	height: 240px;
-	width: 270px;
+	width: 280px;
 	background-color: #FCF0D9;
 	float: right;
 	-webkit-border-radius: 15px;
@@ -68,7 +86,6 @@ body {
 	border-radius: 15px;
 	padding: 15px;
 	border: 1px solid #FBE9C8;
-	margin-right: 15px;
 }
 #iframe-wrapper #Register #Reg h1 {
 	font-weight: 100;
@@ -78,33 +95,27 @@ body {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
-	color: #333;
+	color: #FF9920;
 }
-
-
-
 #iframe-wrapper #Summaries #S1 {
 	clear: right;
 	float: left;
-	width: 280px;
-	padding-left: 10px;
-	padding-right: 20px;
+	width: 50%;
+	height: 100%;
 }
 #iframe-wrapper #Summaries #S2 {
 	clear: right;
 	float: left;
-	width: 280px;
-	padding-left: 10px;
-	padding-right: 20px;
+	width: 50%;
+	height: 100%;
 }
 #iframe-wrapper #Summaries #More {
 	float: left;
-	width: 640px;
-	position: relative;
+	width: 630px;
+	position: absolute;
 	left: 0px;
-	top: 0px;
+	top: 170px;
 }
-
 #iframe-wrapper #Summaries h1 {
 	color: #FF5B67;
 	/*font: 'Roboto Slab';*/
@@ -149,8 +160,8 @@ body {
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	position: absolute;
-	top: 245px;
-	right: 35px;
+	top: 230px;
+	right: 25px;
 	background-repeat: no-repeat;
 	background-position: left top;
 	text-decoration: none;
@@ -186,12 +197,9 @@ body {
 	padding-left: 0px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	margin-right: 40px;
-	margin-top: 15px;
+	margin-top: 30px;
 	background-color: #BFBDB5;
 }
-
-
 #iframe-wrapper #Marquee #GetVideo #Watch h2 {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -214,13 +222,16 @@ body {
 }
 helpers : {
  overlay : {
-  opacity    : 0
- },
- title : null
+ opacity : 0
+},  title : null
 }
 #iframe-wrapper #Summaries li {
 	color: #594F3D;
 }
 #iframe-wrapper #Register #Reg p {
 	color: #594F3D;
+}
+.fancybox-lock .fancybox-overlay {
+	overflow: auto !important;
+	overflow-y: none !important;
 }
