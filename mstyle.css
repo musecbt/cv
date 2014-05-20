@@ -62,7 +62,7 @@ body {
 	border-bottom-style: solid;
 	border-bottom-color: #CFCFCF;
 	height: 180px;
-	padding-left: 10px;
+	margin-left: 10px;
 }
 #iframe-wrapper #Register {
 	clear: right;
