@@ -5,28 +5,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, addres
 	font:inherit;
 	vertical-align:baseline
 }
-#iframe-wrapper #Marquee #GetVideo {
-	height: 150px;
-	width: 338px;
-	position: absolute;
-	left: 15px;
-	top: 80px;
-	line-height: normal;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background-image: url(images/vback.png);
-	background-repeat: repeat;
-	background-position: left top;
-	padding: 15px;
-}
-#iframe-wrapper #Marquee #GetVideo h1 {
-	color: #FFF;
-	font-size: 24px;
-	line-height: 35px;
-	margin: 0px;
-	padding: 0px;
-}
 body {
 	background-color: #FFF !important;
 }
@@ -122,38 +100,12 @@ body {
 	font-weight: 300;
 	margin: 0px !important;
 }
-.mWatchVideo {
-	color: #FFF;
-	height: 23px;
-	float: right;
-	border: none;
-	width: 160px;
-	cursor:pointer;
-	/*font-family: 'Roboto Slab';*/
-	font-size: 14px;
-	line-height: 23px;
-	background-image: url(images/watch.png);
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	position: absolute;
-	top: 135px;
-	right: 15px;
-	padding-left: 20px;
-	background-repeat: no-repeat;
-	background-position: left top;
-	text-decoration: none;
-	text-align: right;
-	padding-right: 15px;
-	background-color: #FF5B67;
-}
 .mGetStarted {
 	color: #000;
 	height: 23px;
 	float: right;
 	width: 140px;
 	cursor:pointer;
-	/*font-family: 'Roboto Slab';*/
 	font-size: 14px;
 	background-image: url(images/register.png);
 	-webkit-border-radius: 3px;
@@ -179,7 +131,6 @@ body {
 	float: right;
 	width: 110px;
 	cursor:pointer;
-	/*font-family: 'Roboto Slab';*/
 	font-size: 14px;
 	background-image: url(images/learn.png);
 	-webkit-border-radius: 3px;
