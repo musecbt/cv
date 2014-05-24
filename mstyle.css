@@ -8,6 +8,15 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, a, abbr, acronym, addres
 body {
 	background-color: #FFF !important;
 }
+#prefetch {
+	display:none;
+	position: absolute;
+   overflow: hidden;
+   left: -9999px; 
+   top: -9999px;
+   height: 1px;
+   width: 1px;
+}
 #iframe-wrapper {
 	background-color: #FFF;
 	width: 1000px;
@@ -18,15 +27,6 @@ body {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-}
-#prefetch {
-	display:none;
-	position: absolute;
-   overflow: hidden;
-   left: -9999px; 
-   top: -9999px;
-   height: 1px;
-   width: 1px;
 }
 
 #iframe-wrapper #Summaries {
@@ -175,9 +175,6 @@ helpers : {
  overlay : {
  opacity : 0
 },  title : null
-}
-#iframe-wrapper #Summaries li {
-	color: #594F3D;
 }
 #iframe-wrapper #Register #Reg p {
 	color: #594F3D;
