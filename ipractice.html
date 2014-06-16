@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+<base target="_parent" />
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href="mstyle.css" rel="stylesheet" type="text/css" />
+<link href="https://www.musecbt.com/bitrix/templates/template/template_styles.css" rel="stylesheet" type="text/css" />
+<!--
+	<meta content="device-width=width"/>
+-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<style type="text/css">
+#ipractice-wrapper {
+	width: 925px;
+}
+ul.ipractice-list {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+.ipractice-list li {
+	line-height:40px;
+	font-size:28px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:10px;
+	margin: 10px;
+	background-color: #FBE9C8;
+	border-radius:10px;
+	overflow: hidden;
+}
+
+.ipractice-list .item {
+	// overflow: auto;
+	// vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+.ipractice-list .title {
+        color: #FF9920;
+	padding-left: 20px;
+	margin: 0;
+	position: relative;
+}
+
+.ipractice-list .about {
+	margin: 0 auto;
+	padding-left: 10px;
+	color: #ccd;
+	border: 1px;
+	width: 300px;
+	border-color: 000000;
+        border-left-style: solid;
+	font-size: 10px;
+	float: right;
+}
+
+.item a {
+	// float: left;
+}
+
+#download {
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin-right:10px;
+}
+
+#download:hover {
+    border: none;
+    background: #FF9920;
+    box-shadow: 0px 0px 1px #777;
+}
+
+</style>
+</head>
+
+<body>
+<div id="ipractice-wrapper">
+  <h1>Attention Training / Relaxation Exercies</h1>
+  <p>Download these exercises to your computer / device. Please press the "Click Here" button to download the audio file.</p>
+  <ul class="ipractice-list">
+    <li><div class="item">
+	<a href="media/AWARENESS_OF_THOUGHTS.mp3" ><button id="download" type="buttton">Click Here</button></a>
+	<span class="title">Awareness of Thoughts</span>
+<!--
+	<span class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+-->
+	</div>
+    </li>
+    <li><div class="item">
+	<a href="media/GUIDED_IMAGERY.mp3" type="audio/mpeg" download="GUIDED_IMAGERY.mp3"><button id="download" type="buttton">Click Here</button></a>
+	<span class="title">Guided Imagery</span>
+	</div>
+    </li>
+    <li><div class="item">
+	<a href="media/PROGRESSIVE_MUSCLE_RELAXATION.mp3" download="PROGRESSIVE_MUSCLE_RELAXATION.mp3"><button id="download" type="buttton">Click Here</button></a>
+	<span class="title">Progressive Muscle Relaxation</span>
+	</div>
+    </li>
+    <li><div class="item">
+	<a href="media/RELAXED_BREATHING.mp3" download="RELAXED_BREATHING.mp3"><button id="download" type="buttton">Click Here</button></a>
+	<span class="title">Relaxed Breathing</span>
+	</div>
+    </li>
+  </ul>
+</div>
+</html>
