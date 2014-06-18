@@ -8,34 +8,55 @@
 <!--
 	<meta content="device-width=width"/>
 -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+ $(document).ready(function(){
+  $("#jquery_jplayer_1").jPlayer({
+   ready: function () {
+    $(#jquery_jplayer_1).jPlayer("setMedia", {
+     mp3: "media/AWARENESS_OF_THOUGHTS.mp3"
+    });
+   },
+   swfPath: "js",
+   wmode: "window",
+   supplied: "mp3"
+  });
+
+ });
+</script>
 
 <style type="text/css">
 #ipractice-wrapper {
 	width: 925px;
+	margin: 10px;
 }
 ul.ipractice-list {
 	list-style-type: none;
-	padding:0;
-	margin:0;
+	padding: 0;
 }
 
 .ipractice-list li {
-	line-height:40px;
+	list-style-type: none;
+	//height: 40px;
 	font-size:28px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left:10px;
-	margin: 10px;
+	margin: 10px auto;
 	background-color: #FBE9C8;
 	border-radius:10px;
-	overflow: hidden;
+	// overflow: hidden;
 }
 
 .ipractice-list .item {
-	// overflow: auto;
-	// vertical-align: middle;
-	margin: 0;
+	//overflow: auto;
+	vertical-align: middle;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -73,6 +94,7 @@ ul.ipractice-list {
     cursor: pointer;
     border:none;
     margin-right:10px;
+    padding: 5px;
 }
 
 #download:hover {
@@ -81,16 +103,21 @@ ul.ipractice-list {
     box-shadow: 0px 0px 1px #777;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 </style>
 </head>
 
 <body>
 <div id="ipractice-wrapper">
-  <h1>Attention Training / Relaxation Exercies</h1>
-  <p>Download these exercises to your computer / device. Please press the "Click Here" button to download the audio file.</p>
+  <h1>Attention Training / Relaxation Exercises</h1>
+  <p>Please press the "Open" button to launch your default audio player to listen to the exercise.  Press the "Download" button to download the audio file to your device.</p>
   <ul class="ipractice-list">
     <li><div class="item">
-	<a href="media/AWARENESS_OF_THOUGHTS.mp3" ><button id="download" type="buttton">Click Here</button></a>
+	<a href="media/AWARENESS_OF_THOUGHTS.mp3" target="_blank"><button id="download" type="buttton">Open</button></a>
+	<a href="download.php?file=media/AWARENESS_OF_THOUGHTS.mp3" ><button id="download" type="button">Download</button></a>
 	<span class="title">Awareness of Thoughts</span>
 <!--
 	<span class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
@@ -98,17 +125,20 @@ ul.ipractice-list {
 	</div>
     </li>
     <li><div class="item">
-	<a href="media/GUIDED_IMAGERY.mp3" type="audio/mpeg" download="GUIDED_IMAGERY.mp3"><button id="download" type="buttton">Click Here</button></a>
+	<a href="media/GUIDED_IMAGERY.mp3" target="_blank"><button id="download" type="buttton">Open</button></a>
+	<a href="download.php?file=media/GUIDED_IMAGERY.mp3"><button id="download" type="buttton">Download</button></a>
 	<span class="title">Guided Imagery</span>
 	</div>
     </li>
     <li><div class="item">
-	<a href="media/PROGRESSIVE_MUSCLE_RELAXATION.mp3" download="PROGRESSIVE_MUSCLE_RELAXATION.mp3"><button id="download" type="buttton">Click Here</button></a>
+	<a href="media/PROGRESSIVE_MUSCLE_RELAXATION.mp3" target="_blank"><button id="download" type="buttton">Open</button></a>
+	<a href="media/PROGRESSIVE_MUSCLE_RELAXATION.mp3" download="PROGRESSIVE_MUSCLE_RELAXATION.mp3"><button id="download" type="buttton">Download</button></a>
 	<span class="title">Progressive Muscle Relaxation</span>
 	</div>
     </li>
     <li><div class="item">
-	<a href="media/RELAXED_BREATHING.mp3" download="RELAXED_BREATHING.mp3"><button id="download" type="buttton">Click Here</button></a>
+	<a href="media/RELAXED_BREATHING.mp3" target="_blank"><button id="download" type="buttton">Open</button></a>
+	<a href="media/RELAXED_BREATHING.mp3" download="RELAXED_BREATHING.mp3"><button id="download" type="buttton">Download</button></a>
 	<span class="title">Relaxed Breathing</span>
 	</div>
     </li>

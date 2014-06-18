@@ -1,0 +1,8 @@
+# <FilesMatch "\.(?i:mp3)$">
+#      ForceType application/octet-stream
+#      Header set Content-Disposition attachment
+#</FilesMatch>
+
+# AddType TYPE/SUBTYPE EXTENSION
+ 
+AddType audio/mpeg mp3
